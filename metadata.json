@@ -1,0 +1,7 @@
+{
+  "name": "BUC Attendance System",
+  "description": "Smart attendance system for BUC university with geolocation verification, strictly limited to @buc.edu.eg emails.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}

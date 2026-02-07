@@ -1,0 +1,12 @@
+export async function askGemini(prompt: string) {
+  const res = await fetch(
+    "https://wxrfqxqcaftlisnepmbx.supabase.co/functions/v1/gemini",
+    {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ prompt }),
+    }
+  );
+
+  return res.json();
+}
